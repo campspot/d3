@@ -1,5 +1,5 @@
 {
-  "name": "d3",
+  "name": "@campspot/d3-legacy",
   "version": "3.5.17",
   "description": "A JavaScript visualization library for HTML and SVG.",
   "keywords": [
@@ -21,9 +21,8 @@
       "url": "http://jasondavies.com"
     }
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/mbostock/d3.git"
+  "publishConfig":{
+    "registry":"https://campspot.jfrog.io/campspot/api/npm/npm/"
   },
   "main": "d3.js",
   "browser": "d3.js",
